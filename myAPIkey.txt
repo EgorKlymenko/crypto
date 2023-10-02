@@ -1,0 +1,4 @@
+e394b34279526e6ffc622b79aabb5c583903419bf3875bb5e62eca8dea8e61c3
+https://min-api.cryptocompare.com/documentation
+https://min-api.cryptocompare.com/data/pricemulti?fsyms=ETH,DASH&tsyms=BTC,USD,EUR&api_key=e394b34279526e6ffc622b79aabb5c583903419bf3875bb5e62eca8dea8e61c3
+https://min-api.cryptocompare.com/data/v2/histoday?fsym=pepe&tsym=usdt&limit=100

@@ -1,0 +1,32 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+}
+
+.logo {
+    width: 100%;
+}
+
+#crypto-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#crypto-table th,
+#crypto-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#crypto-table th {
+    font-weight: bold;
+}
+
+#crypto-table tbody tr:nth-child(even) {
+    background-color: lightcyan;
+}
+
+img {
+    height: 50px;
+}

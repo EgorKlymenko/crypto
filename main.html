@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Головна сторінка</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="main.html"><img class="graficlogo" src="img/logo.png" alt="Logo"></a>
+            <h1 id="logo_name">Знаходження цін криптовалют</h1>
+        </div>
+        <nav>
+            <div class="topnav" id="myTopNav">
+                <ul>
+                    <li><a href="#blockchain">Що таке блокчейн?</a></li>
+                    <li><a href="#api">Використання API</a></li>
+                    <li><a href="#top-cryptos">Топ 10 криптовалют</a></li>
+                    <li><a href="#about">Про створений додаток</a></li>
+                    <li><a href="#footer">Корисні посилання</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <hr class="hr">
+
+    <div class="container">
+
+        <section id="slider">
+            <div class="slidershow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="img/blockmain.jpg" style="width: 100%;" alt="">
+
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="img/table.png" style="width: 100%;" alt="">
+
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="img/dodatok.png" style="width: 100%;" alt="">
+
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+                <a class="next" onclick="plusSlides(1)">&#10095</a>
+            </div>
+            <br>
+        </section>
+
+        <hr class="hr">
+
+        <section id="blockchain">
+            <div class="blockchain_info">
+                <h2>Що таке блокчейн?</h2>
+                <p>Блокчейн (або блок-ланцюг) - це децентралізована технологія зберігання та передачі інформації, яка базується на системі розподілених реєстрів. Вона забезпечує безпеку, надійність і прозорість обміну даними між учасниками мережі без потреби
+                    посередників, таких як банки чи правительства. Основною ідеєю блокчейна є створення ланцюжка блоків, де кожен блок містить криптографічно зв'язану інформацію про транзакції чи дані. Кожен блок містить у собі унікальний ідентифікатор
+                    (хеш), який залежить від вмісту блоку та хешу попереднього блоку. Це створює послідовну ланцюжкову структуру, де кожен блок підтверджує попередній блок.</p>
+            </div>
+            <div class="advantages_container">
+                <div class="advantages">
+                    <div class="advantages_items">
+                        <img src="img/adv1.png" alt="">
+                        <h3>Децентралізація</h3>
+                        <p>Не потребує центральної влади або посередників, що дозволяє учасникам мережі безпосередньо взаємодіяти між собою</p>
+                    </div>
+                    <div class="advantages_items">
+                        <img src="img/adv1.png" alt="">
+                        <h3>Імутованість даних</h3>
+                        <p>Коли інформація записується в блокчейн, вона стає незмінною і неможливо її змінити без згоди більшості учасників мережі</p>
+                    </div>
+                    <div class="advantages_items">
+                        <img src="img/adv1.png" alt="">
+                        <h3>Прозорість</h3>
+                        <p>Блокчейн забезпечує прозорість, оскільки всі транзакції і записи доступні для перегляду всім учасникам мережі</p>
+                    </div>
+                    <div class="advantages_items">
+                        <img src="img/adv1.png" alt="">
+                        <h3>Безпека</h3>
+                        <p>Кожна транзакція підписується цифровим підписом, що дозволяє перевірити їх автентичність</p>
+                    </div>
+                    <div class="advantages_items">
+                        <img src="img/adv1.png" alt="">
+                        <h3>Швидкість та ефективність</h3>
+                        <p>В деяких випадках блокчейн може забезпечувати швидку та ефективну передачу даних та виконання транзакцій</p>
+                    </div>
+                    <div class="advantages_items">
+                        <img src="img/adv1.png" alt="">
+                        <h3>Надійність</h3>
+                        <p>Блокчейн забезпечує високий рівень надійності завдяки своїй децентралізованій природі</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <hr class="hr">
+
+        <section id="api">
+            <h2>Документація та доступність API</h2>
+            <p>API (Application Programming Interface) - це набір програмних інструкцій і протоколів, які дозволяють різним програмам взаємодіяти між собою. API визначає, які функції та можливості надаються програмою та як інші програми можуть з ними взаємодіяти.</p>
+            <p>API дозволяє розробникам створювати програми, які можуть використовувати функціональність і дані інших програм або сервісів без необхідності знати внутрішні деталі їх реалізації. Це робить розробку програм більш ефективною, оскільки розробник
+                може використовувати готові компоненти та сервіси, які надаються через API, замість того, щоб писати всю функціональність з нуля.</p>
+            <p>API може бути представлений у різних форматах, таких як REST (Representational State Transfer), SOAP (Simple Object Access Protocol), JSON-RPC (JSON Remote Procedure Call) та інші. Вони використовуються для передачі даних та виклику функцій
+                між програмами через мережу.</p>
+            <p>В нашому додатку для отримання даних про курси криптовалют використовується API, які надає <a href="https://min-api.cryptocompare.com/">CryptoCompare</a>. Тут існує програма, яка дозволяє використовувати API безкоштовно (не в комерційних цілях).</p>
+            <p>Щоб дізнатися більше про доступні методи, параметри та формати відповідей, ви можете ознайомитися з <a href="https://min-api.cryptocompare.com/documentation">документацією</a>. Будь ласка, зверніть увагу, що доступність API залежить від його
+                статусу та обмежень постачальника.</p>
+        </section>
+
+        <hr class="hr">
+
+        <section id="top-cryptos">
+            <h2>Топ 10 криптовалют</h2>
+            <div class="crypto-container">
+                <div class="crypto-card" onclick="toggleDescription(1)">
+                    <h3>Біткоїн (BTC)</h3>
+                    <div id="description-1" class="crypto-description">
+                        <p>Біткоїн (BTC) - це перша і найвідоміша криптовалюта. Він був створений у 2009 році і базується на технології блокчейн. Біткоїн є децентралізованою цифровою валютою, яка дозволяє користувачам надсилати та отримувати платежі через
+                            Інтернет без посередництва фінансових установ.</p>
+                    </div>
+                </div>
+                <div class="crypto-card" onclick="toggleDescription(2)">
+                    <h3>Ефір (ETH)</h3>
+                    <div id="description-2" class="crypto-description">
+                        <p>Ефір (ETH) - це відкрита платформа для створення та запуску смарт-контрактів та децентралізованих додатків. Він був запущений у 2015 році і став другим за капіталізацією криптовалютою після Біткоїна.</p>
+                    </div>
+                </div>
+                <div class="crypto-card" onclick="toggleDescription(3)">
+                    <h3>Ріпл (XRP)</h3>
+                    <div id="description-3" class="crypto-description">
+                        <p>Ріпл (XRP) - це цифрова валюта, а також мережа платежів, що дозволяє миттєві глобальні грошові перекази. Вона була розроблена з метою полегшення міжбанківських та міжнародних грошових операцій.</p>
+                    </div>
+                </div>
+                <div class="crypto-card" onclick="toggleDescription(4)">
+                    <h3>Біткоїн Кеш (BCH)</h3>
+                    <div id="description-4" class="crypto-description">
+                        <p>Біткоїн Кеш (BCH) - це форк Біткоїна, що означає, що він виник шляхом відгалуження від оригінального Біткоїна. Він має більш високу масштабованість та швидкість транзакцій порівняно з оригінальним Біткоїном.</p>
+                    </div>
+                </div>
+                <div class="crypto-card" onclick="toggleDescription(5)">
+                    <h3>Кардано (ADA)</h3>
+                    <div id="description-5" class="crypto-description">
+                        <p>Кардано (ADA) - це блокчейн-платформа, яка пропонує безпеку та розширену функціональність для розробки смарт-контрактів та децентралізованих додатків. Вона прагне забезпечити більш широку прийнятність технології блокчейн.</p>
+                    </div>
+                </div>
+                <div class="crypto-card" onclick="toggleDescription(6)">
+                    <h3>Лайткоїн (LTC)</h3>
+                    <div id="description-6" class="crypto-description">
+                        <p>Лайткоїн (LTC) - це криптовалюта, яка була випущена в 2011 році як "легковаговий" альтернативний варіант Біткоїна. Вона пропонує швидші часи підтвердження транзакцій і більш простий алгоритм майнінгу.</p>
+                    </div>
+                </div>
+                <div class="crypto-card" onclick="toggleDescription(7)">
+                    <h3>Полкадот (DOT)</h3>
+                    <div id="description-7" class="crypto-description">
+                        <p>Полкадот (DOT) - це блокчейн-платформа, яка дозволяє різним блокчейнам взаємодіяти та співпрацювати один з одним. Вона прагне створити масштабовану інтероперабельну мережу блокчейнів.</p>
+                    </div>
+                </div>
+                <div class="crypto-card" onclick="toggleDescription(8)">
+                    <h3>Бінанс Коїн (BNB)</h3>
+                    <div id="description-8" class="crypto-description">
+                        <p>Бінанс Коїн (BNB) - це власна криптовалюта та блокчейн-платформа біржі Binance. Вона використовується для оплати комісій на платформі, а також для участі в токенсейлах та інших послугах.</p>
+                    </div>
+                </div>
+                <div class="crypto-card" onclick="toggleDescription(9)">
+                    <h3>Чейнлінк (LINK)</h3>
+                    <div id="description-9" class="crypto-description">
+                        <p>Чейнлінк (LINK) - це блокчейн-платформа, яка надає засоби для забезпечення зв'язку між блокчейном та зовнішніми даними. Вона дозволяє оракулам постачати реальні дані до блокчейну для виконання смарт-контрактів.</p>
+                    </div>
+                </div>
+                <div class="crypto-card" onclick="toggleDescription(10)">
+                    <h3>Стеллар (XLM)</h3>
+                    <div id="description-10" class="crypto-description">
+                        <p>Стеллар (XLM) - це блокчейн-платформа, яка дозволяє проводити швидкі та дешеві грошові операції між різними валютами. Вона прагне забезпечити фінансову інклюзію та полегшити перекази грошей у світі.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="hr">
+
+        <section id="about">
+            <h2>Про додаток</h2>
+            <p>Дані додатки створені засобами HTML, CSS, JS (без викорастання фреймворків). Вони створені з відкритим кодом та вільні для використання.</p>
+            <p>На сторінці з дослідженням криптовалют ви можете переглянути ціни криптовалют та їх графіки на основі даних, отриманих з API за допомогою <a href="https://min-api.cryptocompare.com/">CryptoCompare</a>. Виберіть цікаву вам криптовалюту і побачите
+                її цінову динаміку на різних відрізках часу. Також є можливість побачити деяку статистику за останні 24 години по найпопулярнішим 10 криптомонетах. Натисніть відповідну кнопку нижче, щоб спробувати наш додаток!
+            </p>
+            <div class="but">
+                <button class="custom-btn btn-3" onclick="redirectToTablePage()"><span>Топ 10 криптовалют</span></button>
+                <button class="custom-btn btn-3" onclick="redirectToGraphPage()"><span>Дослідити криптопару</span></button>
+            </div>
+        </section>
+    </div>
+
+    <footer id="footer">
+        <div class="footer_wrap">
+            <div class="links">
+                <ul>
+                    <h2>Корисні посилання</h2>
+                    <li><a id="live-link" href="html/table.html">Дані за 24 години по топ 10 криптовалютам</a></li>
+                    <li><a id="live-link" href="html/index.html">Додаток для дослідження цін криптовалют</a></li>
+                    <li><a href="https://min-api.cryptocompare.com/documentation">Документація про API</a></li>
+                </ul>
+            </div>
+            <div class="social">
+
+                <h2>Шукайте нас тут</h2>
+                <div class="icons">
+                    <div class="social_icon">
+                        <a id="social" href="https://www.instagram.com/"><img src="img/instagram.png" alt=""></a>
+                    </div>
+                    <div class="social_icon">
+                        <a id="social" href="https://twitter.com/"><img src="img/twitter.png" alt=""></a>
+                    </div>
+                    <div class="social_icon">
+                        <a id="social" href="https://www.youtube.com/"><img src="img/youtube.png" alt=""></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <p>© 2023 Всі права захищені.</p>
+    </footer>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
